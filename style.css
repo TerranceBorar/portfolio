@@ -1,0 +1,54 @@
+h1{
+    color:darkblue;
+    margin-left:430px;
+    border: solid;
+
+}
+p{
+    text-align: center;
+    color: rgb(218, 211, 112);
+}
+
+.header{
+    background-color: rgba(121, 11, 184, 0.534);
+    display:flex;
+    padding: 10px;
+}
+.games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+body{
+    background-color: #f700ff;
+    font-style: italic;
+}
+a :link{
+    color: rgb(0, 225, 255);
+    
+}
+a :visited{
+    color: rgb(0, 153, 255);
+}
+.link a{
+    margin-left: 100px;
+}
+.item{
+    position :relative;
+    flex-wrap: wrap;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 0.3;
+}
